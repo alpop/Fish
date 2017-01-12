@@ -101,7 +101,7 @@ for image in images:
         a ["y"]  = float(y)
         
         if i == 0:
-            templ["annotations"]=[a]
+            templ["annotations"]=[]
         
         templ["annotations"].append(a.copy())
             
